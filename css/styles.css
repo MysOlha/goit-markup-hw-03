@@ -6,11 +6,35 @@
   --base-color: #ffffff;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", "Tahoma", sans-serif;
   letter-spacing: 0.03em;
   background-color: var(--base-color);
   color: var(--color-text-section);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* ----------------------HEADER------------------------------ */
@@ -63,6 +87,8 @@ body {
 
 .hero {
   background-color: var(--color-main-bgd);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -90,17 +116,13 @@ body {
 
 /* ----------------------ABOUT------------------- */
 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about-item {
+  max-width: 270px;
 }
 
 .about-title {
@@ -109,6 +131,7 @@ body {
   line-height: 16px;
   text-transform: uppercase;
   color: var(--color-text-tittle);
+  margin-bottom: 10px;
 }
 
 .about-description {
@@ -117,6 +140,10 @@ body {
 }
 
 /* ------------------WORK-------------------- */
+
+.work {
+padding-bottom: 94px;
+}
 
 .work-title {
   font-size: 36px;
@@ -129,6 +156,8 @@ body {
 
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -139,18 +168,24 @@ body {
   text-align: center;
 }
 
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   color: var(--color-text-tittle);
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .team-work {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.img {
+  margin-bottom: 30px;
 }
 
 /* -----------------FOOTER------------------------ */
