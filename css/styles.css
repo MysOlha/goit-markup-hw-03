@@ -36,6 +36,10 @@ body {
   padding-right: 15px;
   margin: 0 auto;
   }
+ 
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+}
 
 .list {
   list-style: none;
@@ -188,6 +192,7 @@ img {
   line-height: 1.17;
   color: var(--color-text-tittle);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .work-list {
@@ -212,6 +217,7 @@ img {
   line-height: 1.17;
   color: var(--color-text-tittle);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-list {
