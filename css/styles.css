@@ -304,12 +304,16 @@ img {
 
 /* ---------------------PORTFOLIO---------------------- */
 
+.border {
+  border-bottom: 1px solid #ECECEC;
+}
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .button-filter {
+  padding: 6px 22px;
   font-family: "Roboto", "Tahoma", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -334,7 +338,7 @@ img {
 }
 
 .filter {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .button-list + .button-list {
@@ -346,21 +350,23 @@ img {
   flex-wrap: wrap;
 }
 
+.list-name {
+  padding: 20px 24px;
+ }
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-text-tittle);
-  margin-top: 20px;
-  margin-left: 24px;
+  
 }
 
 .portfolio-name {
   font-size: 16px;
   line-height: 1.88;
-  margin-top: 4px;
-  margin-left: 24px;
+
 }
 
 .portfolio-item {
